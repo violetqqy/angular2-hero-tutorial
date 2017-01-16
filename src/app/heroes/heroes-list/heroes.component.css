@@ -1,0 +1,88 @@
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+
+.heroes {
+  margin: 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+
+.heroes li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 4px;
+}
+
+.heroes li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+
+.heroes li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+
+.heroes .text {
+  position: relative;
+  top: -3px;
+}
+
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0 0.7em;
+  background-color: #607D8B;
+  line-height: 38px;
+  position: relative;
+  left: -1px;
+  top: -1px;
+  height: 38px;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+button.delete {
+  float: right;
+  margin-top: 7px;
+  margin-right: .8em;
+  background-color: gray !important;
+  color: white;
+}
+
+input {
+  width: 158px;
+  height: 26px;
+  padding: 0 5px;
+}
+
+
+/*
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

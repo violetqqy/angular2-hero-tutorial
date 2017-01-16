@@ -1,29 +1,19 @@
-/* Master Styles */
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+label {
+  display: inline-block;
+  width: 3em;
+  margin: .5em 0;
+  color: #607D8B;
+  font-weight: bold;
 }
 
-body {
-  margin: 2em;
-}
-
-body,
-input[text],
-button {
-  color: #888;
-  font-family: Cambria, Georgia;
-}
-
-a {
-  cursor: pointer;
-  cursor: hand;
+input {
+  height: 2em;
+  font-size: 1em;
+  padding-left: .4em;
 }
 
 button {
+  margin-top: 20px;
   font-family: Arial;
   background-color: #eee;
   border: none;
@@ -33,18 +23,13 @@ button {
   cursor: hand;
 }
 
-input:focus,
-button:focus {
-  outline: none;
-}
-
 button:hover {
   background-color: #cfd8dc;
 }
 
 button:disabled {
   background-color: #eee;
-  color: #aaa;
+  color: #ccc;
   cursor: auto;
 }
 

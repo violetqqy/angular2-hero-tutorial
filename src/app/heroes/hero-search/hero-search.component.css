@@ -1,0 +1,17 @@
+.search-result {
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  width: 200px;
+  height: 32px;
+  line-height: 30px;
+  padding: 0 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#search-box {
+  width: 200px;
+  height: 32px;
+  padding: 0 5px;
+}
